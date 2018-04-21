@@ -150,15 +150,15 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Ellllllen\ApiWrapper\ApiWrapperServiceProvider::class,
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Ellllllen\Providers\AppServiceProvider::class,
+        Ellllllen\Providers\AuthServiceProvider::class,
+        // Ellllllen\Providers\BroadcastServiceProvider::class,
+        Ellllllen\Providers\EventServiceProvider::class,
+        Ellllllen\Providers\RouteServiceProvider::class,
 
     ],
 
